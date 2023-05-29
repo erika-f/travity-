@@ -1,0 +1,706 @@
+.cover-frame-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #eaeaea;
+    width: 1920px;
+    height: 960px;
+  }
+  .cover-frame-item {
+    position: absolute;
+    height: 7.2%;
+    width: 22.92%;
+    top: 44.34%;
+    right: 3.36%;
+    bottom: 48.46%;
+    left: 73.72%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .made-by-team,
+  .travel-website {
+    position: absolute;
+    top: 875.25px;
+    left: 1173.29px;
+  }
+  .travel-website {
+    top: 0;
+    left: 0;
+    font-weight: 500;
+  }
+  .travel-website-wrapper {
+    position: absolute;
+    top: 827.38px;
+    left: 1173.29px;
+    width: 224px;
+    height: 40px;
+    font-size: 34px;
+    color: var(--putih);
+  }
+  .icon-home {
+    position: relative;
+    width: 23.18px;
+    height: 23.18px;
+  }
+  .icon-home-parent,
+  .rumah {
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+  }
+  .rumah {
+    position: relative;
+    font-weight: 600;
+    width: 79px;
+    flex-shrink: 0;
+  }
+  .icon-home-parent {
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 4.45px;
+    text-align: left;
+    font-family: var(--reguler-quicksand);
+  }
+  .div-icon {
+    border-radius: 2.23px;
+    width: 40.06px;
+    height: 26.71px;
+    object-fit: cover;
+  }
+  .div-icon,
+  .idn {
+    position: relative;
+  }
+  .div-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 4.45px;
+  }
+  .frame-icon {
+    position: relative;
+    width: 26.71px;
+    height: 26.71px;
+  }
+  .frame-group,
+  .masuk {
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .frame-group {
+    flex-direction: row;
+    gap: 4.45px;
+    font-size: 17.8px;
+  }
+  .masuk {
+    position: relative;
+    width: 45.62px;
+    flex-shrink: 0;
+  }
+  .daftar-wrapper {
+    border-radius: 6.68px;
+    background-color: var(--biru-icon-tua);
+    width: 102.37px;
+    height: 51.19px;
+    padding: 0 8.901816368103027px;
+    box-sizing: border-box;
+    color: var(--putih);
+  }
+  .daftar-wrapper,
+  .frame-parent,
+  .masuk-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .masuk-parent {
+    align-self: stretch;
+    gap: 17.8px;
+  }
+  .frame-parent {
+    position: absolute;
+    top: 24px;
+    left: 1598px;
+    gap: 26.71px;
+    text-align: center;
+    font-size: 15.58px;
+    color: var(--font-bold);
+  }
+  .instance-child {
+    position: relative;
+    width: 36.87px;
+    height: 43.94px;
+  }
+  .frame-child,
+  .frame-inner,
+  .frame-item,
+  .rectangle-div {
+    position: relative;
+    border-radius: 3.69px;
+    background-color: var(--orange-icon-primer);
+    width: 24.07px;
+    height: 6.02px;
+  }
+  .frame-inner,
+  .frame-item,
+  .rectangle-div {
+    width: 18.05px;
+  }
+  .frame-inner,
+  .rectangle-div {
+    width: 12.03px;
+  }
+  .rectangle-div {
+    border-radius: 7.37px;
+    width: 6.02px;
+  }
+  .group-parent,
+  .rectangle-parent {
+    display: flex;
+    justify-content: center;
+  }
+  .rectangle-parent {
+    height: 31.56px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4.06px;
+  }
+  .group-parent {
+    border-radius: 6.02px;
+    flex-direction: row;
+    padding: 6.01715087890625px;
+    align-items: center;
+    gap: 6.02px;
+  }
+  .travity {
+    position: relative;
+    font-weight: 700;
+  }
+  .instance-parent {
+    position: absolute;
+    top: 24px;
+    left: 51px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 4.34px;
+    font-size: 26.04px;
+    color: var(--biru-icon-tua);
+  }
+  .image-6-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 301px;
+    height: 168.81px;
+    object-fit: cover;
+  }
+  .image-6-wrapper {
+    position: relative;
+    border-radius: var(--br-5xs) var(--br-5xs) 0 0;
+    width: 296px;
+    height: 168px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .malioboro {
+    flex: 1;
+    position: relative;
+  }
+  .malioboro-wrapper {
+    align-self: stretch;
+    height: 58px;
+    display: flex;
+    flex-direction: row;
+    padding: var(--padding-5xs);
+    box-sizing: border-box;
+    align-items: flex-start;
+    justify-content: center;
+    font-size: var(--judul-konten-size);
+    color: var(--font-bold);
+    font-family: var(--reguler-segoe);
+  }
+  .instance-item {
+    position: relative;
+    width: 16.5px;
+    height: 21px;
+  }
+  .group-wrapper {
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    padding: var(--padding-12xs) var(--padding-11xs);
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+  }
+  .gedongtengen-yogyakarta {
+    align-self: stretch;
+    position: relative;
+    font-weight: 600;
+  }
+  .gedongtengen-yogyakarta-wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .instance-group {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-11xs);
+  }
+  .svg-icon {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .january-2023,
+  .kamis {
+    position: relative;
+    line-height: 20px;
+    font-weight: 800;
+  }
+  .january-2023 {
+    flex: 1;
+  }
+  .div {
+    align-self: stretch;
+    display: none;
+    flex-direction: row;
+    padding: var(--padding-11xs) 0;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-7xs);
+    font-size: var(--judul-konten-size);
+    color: var(--font-bold);
+    font-family: var(--judul-konten);
+  }
+  .frame-parent2,
+  .frame-wrapper1,
+  .frame-wrapper2 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+  }
+  .frame-parent2 {
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-base);
+  }
+  .frame-wrapper1,
+  .frame-wrapper2 {
+    align-items: center;
+    justify-content: center;
+  }
+  .frame-wrapper1 {
+    padding: var(--padding-5xs);
+    align-items: flex-start;
+    justify-content: flex-start;
+    color: var(--font-biasa);
+  }
+  .gorem-ipsum-dolor {
+    position: relative;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    width: 234px;
+    flex-shrink: 0;
+  }
+  .gorem-ipsum-dolor-sit-amet-co-wrapper {
+    display: flex;
+    flex-direction: row;
+    padding: var(--padding-3xs) var(--padding-5xs);
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .ellipse-icon {
+    position: relative;
+    border-radius: 50%;
+    width: 29px;
+    height: 29px;
+    object-fit: cover;
+  }
+  .user123 {
+    position: relative;
+    font-weight: 600;
+  }
+  .ellipse-parent {
+    display: flex;
+    flex-direction: row;
+    padding: var(--padding-5xs);
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-xs);
+  }
+  .frame-parent1,
+  .frame-parent4 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .frame-parent1 {
+    border-radius: var(--br-5xs);
+    background-color: var(--putih);
+    box-shadow: var(--drop-shadow);
+    padding: 0 0 var(--padding-5xs);
+    justify-content: flex-start;
+  }
+  .frame-parent4 {
+    align-self: stretch;
+    justify-content: center;
+    gap: var(--gap-base);
+  }
+  .frame-parent5 {
+    border-radius: var(--br-5xs);
+    background-color: var(--putih);
+    box-shadow: var(--drop-shadow);
+    width: 296px;
+    flex-direction: column;
+    padding: 0 0 var(--padding-5xs);
+    box-sizing: border-box;
+    justify-content: flex-start;
+  }
+  .frame-div,
+  .frame-parent5,
+  .frame-wrapper9 {
+    display: flex;
+    align-items: flex-start;
+  }
+  .frame-wrapper9 {
+    align-self: stretch;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .frame-div {
+    flex-direction: row;
+    justify-content: center;
+    gap: var(--gap-6xl);
+  }
+  .frame-container {
+    width: 1000px;
+  }
+  .frame-container,
+  .frame-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .home-page-1-inner {
+    position: absolute;
+    top: 942px;
+    left: calc(50% - 719.5px);
+    width: 1440px;
+    display: flex;
+    flex-direction: row;
+    padding: 0 48px;
+    box-sizing: border-box;
+    align-items: flex-start;
+    justify-content: space-between;
+    font-size: var(--reguler-quicksand-size);
+    font-family: var(--reguler-quicksand);
+  }
+  .destinasi-populer,
+  .review-pengguna {
+    position: absolute;
+    top: 808px;
+    left: 186px;
+    font-size: var(--font-size-24xl-5);
+  }
+  .destinasi-populer {
+    top: 920px;
+    font-size: var(--font-size-6xl);
+  }
+  .eksplor,
+  .temukan-destinasi-populer {
+    position: absolute;
+    top: 1302px;
+    left: 189px;
+    font-size: var(--font-size-24xl-5);
+  }
+  .temukan-destinasi-populer {
+    top: 1393px;
+    font-size: var(--font-size-6xl);
+  }
+  .rectangle-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-5xs);
+    width: 296px;
+    height: 369px;
+    object-fit: cover;
+  }
+  .lombok {
+    position: absolute;
+    top: 235px;
+    left: 30px;
+  }
+  .rectangle-group,
+  .rectangle-parent4 {
+    position: relative;
+    border-radius: var(--br-5xs);
+    width: 296px;
+    height: 369px;
+    background-image: url(./public/frame-341@3x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+  .rectangle-parent4 {
+    background-image: url(./public/frame-355@3x.png);
+  }
+  .frame-parent10 {
+    position: absolute;
+    top: 1479px;
+    left: calc(50% - 799.5px);
+    background-color: var(--putih);
+    width: 1600px;
+    overflow-x: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 50px 0;
+    box-sizing: border-box;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-6xl);
+    font-size: var(--font-size-24xl-5);
+    color: var(--putih);
+  }
+  .temukan-destinasi-favoritmu {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 308px);
+  }
+  .sanur-bali1 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+  }
+  .icon-pencarian,
+  .sanur-bali {
+    position: relative;
+    width: 200px;
+    height: 24px;
+  }
+  .icon-pencarian {
+    width: 24px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .button-pencarian {
+    position: absolute;
+    top: 32px;
+    left: calc(50% - 500px);
+    border-radius: 12px;
+    background-color: var(--biru-penekanan-muda);
+    height: 46px;
+    display: flex;
+    flex-direction: row;
+    padding: var(--padding-5xs) 20px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 736px;
+    font-size: var(--reguler-segoe-size);
+    color: var(--biru-icon-muda);
+  }
+  .temukan-destinasi-favoritmu-parent {
+    position: absolute;
+    top: 641px;
+    left: calc(50% - 493.5px);
+    width: 1000px;
+    height: 78px;
+    font-size: var(--font-size-24xl-5);
+    color: var(--biru-penekanan-tua);
+  }
+  .unsplasho4tua3yxuh4-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1598.49px;
+    height: 1065.66px;
+    object-fit: cover;
+  }
+  .banner {
+    position: relative;
+    border-radius: 18.37px;
+    background-color: var(--putih);
+    width: 1598.49px;
+    height: 546.61px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .unsplashifcmpsiuy3k-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1598px;
+    height: 547px;
+    object-fit: cover;
+  }
+  .unsplash2mcc2jv6oeq-icon,
+  .unsplashgntgr-shkxe-icon {
+    position: absolute;
+    top: -188.33px;
+    left: -173.4px;
+    width: 2204.82px;
+    height: 1085.18px;
+    object-fit: cover;
+  }
+  .unsplash2mcc2jv6oeq-icon {
+    top: 0;
+    left: 0;
+    width: 1598.49px;
+    height: 546.61px;
+  }
+  .banner-parent {
+    position: absolute;
+    top: 174px;
+    left: calc(50% - 798.5px);
+    border-radius: 17.23px;
+    background-color: var(--putih);
+    width: 1631px;
+    overflow-x: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 45px 0;
+    box-sizing: border-box;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 150px;
+  }
+  .home-page-1-child {
+    position: absolute;
+    top: 1973px;
+    left: 0;
+    background-color: var(--biru-penekanan-muda);
+    width: 1920px;
+    height: 960px;
+  }
+  .instance-parent4 {
+    position: absolute;
+    top: 2134px;
+    left: 140px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 4.34px;
+    font-size: 26.04px;
+    color: var(--biru-icon-tua);
+  }
+  .travity2 {
+    position: absolute;
+    top: 2142px;
+    left: 579px;
+  }
+  .blog,
+  .kontak-kami,
+  .terms-privacy {
+    position: absolute;
+    top: 2130px;
+    left: 579px;
+  }
+  .kontak-kami,
+  .terms-privacy {
+    top: 2241px;
+  }
+  .kontak-kami {
+    top: 2247px;
+  }
+  .home-page-1,
+  .kemitraan,
+  .ruang-teman {
+    position: absolute;
+    top: 2359px;
+    left: 579px;
+  }
+  .home-page-1,
+  .kemitraan {
+    top: 2365px;
+  }
+  .home-page-1 {
+    top: 0;
+    left: 0;
+    background-color: var(--putih);
+    width: 2139px;
+    height: 2611px;
+    overflow: hidden;
+    font-size: var(--font-size-7xl);
+    color: var(--color-black);
+    font-family: var(--reguler-segoe);
+  }
+  .icon-diskusi-child {
+    position: relative;
+    width: 23.17px;
+    height: 21.14px;
+  }
+  .icon-diskusi,
+  .ruang-teman1 {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .icon-diskusi {
+    border-radius: 111.27px;
+    background-color: var(--biru-samar);
+    width: 28.93px;
+    height: 28.93px;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .ruang-teman1 {
+    align-self: stretch;
+    position: relative;
+    font-weight: 600;
+    width: 101.26px;
+  }
+  .icon-diskusi-parent {
+    position: absolute;
+    top: -1433px;
+    left: 1382px;
+    height: 51.19px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 4.45px;
+    font-size: 15.58px;
+    color: var(--font-bold);
+    font-family: var(--reguler-quicksand);
+  }
+  .cover-frame {
+    position: relative;
+    background-color: var(--putih);
+    width: 100%;
+    height: 2611px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 20px;
+    color: #99d2f5;
+    font-family: var(--font-roboto);
+  }
+  

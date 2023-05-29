@@ -1,0 +1,367 @@
+
+  * {
+	margin: 0;
+	padding: 0;
+	font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: bold;
+  }
+  @media only screen and (min-width: 768px) {
+	/* Atur tata letak atau gaya khusus untuk tampilan desktop */
+  }
+  
+  /* Gaya untuk tampilan tablet */
+  @media only screen and (min-width: 481px) and (max-width: 767px) {
+	/* Atur tata letak atau gaya khusus untuk tampilan tablet */
+  }
+  
+  /* Gaya untuk tampilan ponsel */
+  @media only screen and (max-width: 480px) {
+	/* Atur tata letak atau gaya khusus untuk tampilan ponsel */
+  }
+.banner {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-top: 30px;
+	gap: 10px;
+	margin: 50px;
+	width: auto;
+
+	height: 500px;
+	left: 0px;
+	top: 0px;
+  
+	box-shadow: 0px 1px 2px -1px rgba(0, 0, 0, 0.1);
+	filter: drop-shadow(0px 1px 3px rgba(0, 0, 0, 0.1));
+	
+}
+.ikon {
+	display: flex;
+	flex-direction: column;
+	width: 150px;
+	height: 150px;
+	margin-top: -90px;
+	margin-left: 50px;
+	filter: drop-shadow(0px 8px 20px rgba(0, 87, 178, 0.24));
+	border-radius: 16px;
+}
+.header {
+	position: sticky;
+	padding: 0px 50px;
+	display: flex;
+	flex-direction: row;
+	top: 0;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 1;
+	padding: 0 30px;
+  font-size: 15px;
+  text-decoration: none;
+  }
+  .navbar-menu {
+	display: flex;
+	flex-direction: row;
+	justify-content: right;
+	align-items: center;
+    margin: 40px;
+  }
+  
+  a:link {
+	text-decoration: none;
+	color: #000000;
+  }
+  
+  .menu:hover {
+	color: #000000;
+  }
+  
+  .menu1 {
+	font-family: serif;
+  }
+  
+  .daftar {
+	background-color: #005cf0;
+	/* Green */
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	border-radius: 8px;
+  }
+.Daerah-Istimewa-Yogyakarta {
+	font-size: 30px;
+  	margin-top: 20px;
+	margin-left: 65px;
+}
+.search {
+	display: flex;
+	flex-direction: row;
+	justify-content: right;
+	align-items: center;
+	position: auto;
+  }
+.menu:hover {
+	color: #000000;
+}
+.DIY {
+flex-direction: row;
+align-items: center;
+padding: 0px 24px;
+margin-left: 75px;
+margin-top: 20px;
+width: 390px;
+height: 50px;
+left: 48px;
+top: 647px;
+}
+.container {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-left: 60px;
+	margin-top: -30px;
+}
+
+.card {
+    width: 400px;
+    margin-left: 30px;
+	margin-top: 30px;
+    border-radius: 15px 15px 15px 15px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.card-image {
+    height: 220px;
+	width: 400px;
+    margin-bottom: 0;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.car1 {
+    background-image: url(/asset/tugu-jogja.png);
+	width: 100%;
+
+}
+
+.car2 {
+    background-image: url(/asset/malioboro.png);
+	width: 100%;
+}
+
+.car3 {
+    background-image: url(/asset/tamanreptil.png);
+	width: 100%;
+}
+
+.car4 {
+	background-image: url(/asset/kampung-wisata-ts.png);
+	width: 100%;
+}
+
+.car5 {
+	background-image: url(/asset/alun\ kidul.png);
+	width: 100%;
+}
+.car6 {
+	background-image: url(/asset/keraton.png);
+	width: 100%;
+}
+
+.aside {
+	width: 29%;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.daftar-simpan {
+    display: flex;
+    justify-content: right;
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+}
+.daftar-disimpan {
+    left: 40px;
+	position: relative;
+}
+.table1 {
+	border: black;
+    width: 360px;
+	height: auto;
+    margin-left: 60px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+	padding: 10px;
+    border-radius: 15px 15px 15px 15px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	
+}
+.kosong {
+width: 302px;
+margin: 5px;
+height: auto;
+display: flex;
+align-items: center;
+color: #D1D5DB;
+}
+.font-design1 {
+width: 302px;
+margin: 5px;
+height: 19px;
+display: flex;
+align-items: center;
+color: black;
+}
+.table2 {
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    width: 360px;
+    height: 550px;
+    margin-top: 30px;
+	margin-left: 60px;
+    border-radius: 15px 15px 15px 15px;
+	padding: 10px;
+}
+#check {
+	display: inline-flex;
+	width: 15px;
+	height: 15px;
+}
+.table-daftar-simpan {
+	display: flex;
+	flex-direction: row;
+	justify-content: left;
+	align-items: center;
+
+	width: 360px;
+	height: 40px;
+/* Biru Penekanan Muda */
+background: #DBEAFE;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+.isi-saring-menu {
+	margin-left: 15px;
+	margin-top: 20px;
+	
+}
+
+.rating {
+    float: left;
+    height: 46px;
+	margin-left: 7px;
+	margin-top: 10px;
+    padding: 0 10px;
+}
+.rating:not(:checked) > input {
+    display: none;
+}
+.rating:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rating:not(:checked) > label:before {
+    content: '★ ';
+}
+.rating > input:checked ~ label {
+    color: #ffc700;    
+}
+.rating:not(:checked) > label:hover,
+.rating:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.rating > input:checked + label:hover,
+.rating > input:checked + label:hover ~ label,
+.rating > input:checked ~ label:hover,
+.rating > input:checked ~ label:hover ~ label,
+.rating > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+.border-aktifitas{
+
+    width: 360px;
+    margin: 15px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    border-radius: 16px 16px 16px 16px;
+}
+.custom-select {
+	display: flex;
+	flex-direction: row;
+	justify-content: left;
+	align-items: center;
+	position: auto;
+	width: 360px;
+	height: 40px;
+/* Biru Penekanan Muda */
+background: #DBEAFE;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+.simpan-daftar {
+	background-color: #005cf0;
+	align-items: center;
+	width: 360px;
+	height: 40px;
+	text-align: center;
+	border-radius: 8px;
+	margin: 15px;
+	color: white;
+	border: white;
+	font-size: 16px;
+	border-radius: 8px;
+}
+.harga-ticket {
+	width: 302px;
+	margin-left: 17px;
+	margin-top: 10px;
+	height: 19px;
+	display: flex;
+	align-items: center;
+}
+
+.saringMenuItem span{
+	padding: 10px;
+	color: #7a7a7a;
+}
+
+.arrow-right {
+
+	border-top: 25px solid transparent;
+	border-left: 23px solid #1E40AF;
+	border-bottom: 25px solid transparent;
+	position: relative;
+  }
+
+
+  .arrow-right:before {
+	content: "";
+	width: 0;
+	height: 0;
+	
+	position: absolute;
+	border-top: 25px solid transparent;
+	border-left: 23px solid white;
+	border-bottom: 25px solid transparent;
+	top: -25px;
+	left: -25px;
+  }
